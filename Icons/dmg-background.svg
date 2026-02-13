@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F6F5"/>
+      <stop offset="100%" style="stop-color:#E2EDEB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Light background -->
+  <rect width="600" height="420" fill="url(#bg)"/>
+
+  <!-- Subtle grid (matching app icon style, very faint on light bg) -->
+  <g opacity="0.06" stroke="#1B4D5C" stroke-width="0.5" fill="none">
+    <line x1="100" y1="0" x2="100" y2="420"/>
+    <line x1="200" y1="0" x2="200" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="400" y1="0" x2="400" y2="420"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="0" y1="84" x2="600" y2="84"/>
+    <line x1="0" y1="168" x2="600" y2="168"/>
+    <line x1="0" y1="252" x2="600" y2="252"/>
+    <line x1="0" y1="336" x2="600" y2="336"/>
+  </g>
+
+  <!-- Arrow centered between app icon (x=150) and Applications (x=450) -->
+  <g transform="translate(300, 195)" opacity="0.35" stroke="#1B4D5C" fill="#1B4D5C">
+    <!-- Arrow line -->
+    <line x1="-75" y1="0" x2="65" y2="0" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Arrow head -->
+    <polygon points="65,-7 80,0 65,7"/>
+  </g>
+</svg>

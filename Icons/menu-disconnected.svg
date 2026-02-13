@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Mosquito side profile - bold silhouette for menu bar (disconnected, dimmed) -->
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+
+    <!-- Head -->
+    <circle cx="18" cy="28" r="5" stroke="none"/>
+
+    <!-- Proboscis (long needle pointing left) -->
+    <line x1="14" y1="28" x2="1" y2="24" stroke-width="2.5" fill="none"/>
+
+    <!-- Antenna (sweeping up-left from head) -->
+    <line x1="16" y1="24" x2="8" y2="14" stroke-width="2" fill="none"/>
+
+    <!-- Thorax -->
+    <ellipse cx="27" cy="28" rx="7" ry="6" stroke="none"/>
+
+    <!-- Wing (large, angled up from thorax) -->
+    <ellipse cx="30" cy="16" rx="14" ry="5" opacity="0.4" stroke="none" transform="rotate(-20, 30, 16)"/>
+
+    <!-- Abdomen (tapered, angling down-right) -->
+    <path d="M 33,26 Q 42,30 50,38 Q 52,42 48,42 Q 40,38 32,32 Z" stroke="none"/>
+
+    <!-- Front leg (down from thorax) -->
+    <path d="M 22,33 L 18,44 L 14,50" stroke-width="2.5" fill="none"/>
+
+    <!-- Middle leg -->
+    <path d="M 28,33 L 30,44 L 28,52" stroke-width="2.5" fill="none"/>
+
+    <!-- Rear leg (long, trailing back) -->
+    <path d="M 34,32 L 42,44 L 48,54" stroke-width="2.5" fill="none"/>
+
+  </g>
+</svg>
